@@ -57,12 +57,12 @@ function buildBoard(size, blacks, whites) {
 const PROBLEM_LIST = {
   easy: Array.from({ length: 20 }, (_, i) => ({
     id: i + 1,
-    filename: `ggg-easy-${String(i + 1).padStart(3, "0")}.sgf`,
+    filename: `ggg-easy-${String(i + 1).padStart(2, "0")}.sgf`,
     level: "初級", levelColor: "#4CAF50",
   })),
   intermediate: Array.from({ length: 20 }, (_, i) => ({
     id: i + 1,
-    filename: `ggg-intermediate-${String(i + 1).padStart(3, "0")}.sgf`,
+    filename: `ggg-intermediate-${String(i + 1).padStart(2, "0")}.sgf`,
     level: "中級", levelColor: "#FF9800",
   })),
   hard: Array.from({ length: 15 }, (_, i) => ({
