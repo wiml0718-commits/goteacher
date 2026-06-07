@@ -7,4 +7,3 @@
   to = "https://raw.githubusercontent.com/gogameguru/go-problems/master/weekly-go-problems/:splat"
   status = 200
   force = true
-
