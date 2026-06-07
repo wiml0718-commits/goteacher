@@ -72,7 +72,7 @@ const PROBLEM_LIST = {
   })),
 };
 
-const BASE_URL = "https://raw.githubusercontent.com/gogameguru/go-problems/master/weekly-go-problems";
+const BASE_URL = "/sgf";
 
 async function fetchSGF(difficulty, filename) {
   const url = `${BASE_URL}/${difficulty}/${filename}`;
