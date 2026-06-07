@@ -74,6 +74,7 @@ const PROBLEM_LIST = {
 
 const BASE_URL = "/sgf";
 
+
 async function fetchSGF(difficulty, filename) {
   const url = `${BASE_URL}/${difficulty}/${filename}`;
   const res = await fetch(url);
