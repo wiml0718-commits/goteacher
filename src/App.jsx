@@ -66,8 +66,8 @@ const PROBLEM_LIST = {
     level: "中級", levelColor: "#FF9800",
   })),
   hard: Array.from({ length: 15 }, (_, i) => ({
-    id: i + 100,
-    filename: `ggg-hard-${String(i + 100).padStart(3, "0")}.sgf`,
+    id: i + 1,
+    filename: `ggg-hard-${String(i + 1).padStart(3, "0")}.sgf`,
     level: "高級", levelColor: "#F44336",
   })),
 };
